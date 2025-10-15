@@ -29,6 +29,12 @@ export default function MenuPage() {
       <div className="max-w-2xl w-full">
         {/* Title */}
         <div className="text-center mb-12 animate-[game-start_0.6s_ease-out]">
+          <div className="mb-4 text-2xl text-cyan-400 font-semibold" style={{
+            textShadow: '0 0 15px hsl(var(--game-wall) / 0.6)',
+            animation: 'pulse 2s ease-in-out infinite',
+          }}>
+            Hello, Player! 👋
+          </div>
           <h1 className="text-6xl md:text-7xl font-bold mb-4 tracking-wider" style={{
             color: 'hsl(var(--game-pacman))',
             textShadow: '0 0 20px hsl(var(--game-pacman) / 0.5), 0 0 40px hsl(var(--game-pacman) / 0.3)',
